@@ -16,7 +16,7 @@
 A atividade envolve expandir uma aplicação de conversão de moedas, permitindo que o usuário converta entre pelo menos 4 moedas diferentes.
 
 ### Funcionalidades das Classes:
-Classe de Conversão: Calcula o valor convertido entre as moedas. Utiliza uma API de taxas de câmbio (AwesomeApi) para obter as taxas e fazer a conversão.
+Classe de Conversão: Calcula o valor convertido entre as moedas. Utiliza uma API de taxas de câmbio (Axios) para obter as taxas e fazer a conversão.
 
 Interface de Usuário: Permite ao usuário a inserção das moedas de origem e destino e após a escolha da conversão ver o resultado.
 
