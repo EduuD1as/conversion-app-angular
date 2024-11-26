@@ -16,15 +16,13 @@
 A atividade envolve expandir uma aplicação de conversão de moedas, permitindo que o usuário converta entre pelo menos 4 moedas diferentes.
 
 ### Funcionalidades das Classes:
-Classe de Conversão: Responsável por calcular o valor convertido entre as moedas. Ela usa uma API de taxas de câmbio (como ExchangeRate-API) para obter as taxas e fazer a conversão.
+Classe de Conversão: Calcula o valor convertido entre as moedas. Utiliza uma API de taxas de câmbio (AwesomeApi) para obter as taxas e fazer a conversão.
 
-Interface de Usuário: Permite ao usuário selecionar as moedas de origem e destino, inserir um valor e visualizar o resultado da conversão. A interface deve ser simples, com menus suspensos para as moedas e campos de entrada para o valor.
+Interface de Usuário: Permite ao usuário a inserção das moedas de origem e destino e após a escolha da conversão ver o resultado.
 
 API de Taxas de Câmbio: Integra a aplicação com uma API para obter as taxas de câmbio em tempo real, permitindo que as conversões sejam feitas de acordo com valores atualizados do mercado.
 
 ### Pontos Principais:
-Conversões de Moeda: O usuário pode converter entre várias moedas (ex: Real, Dólar, Euro, Libra).
-Interface Simples: Menus de seleção para moedas e exibição clara do resultado.
-Atualização em Tempo Real: A API fornece as taxas de câmbio em tempo real para garantir conversões precisas.
+Atualização em Tempo Real: A API fornece as taxas de câmbio em tempo real para que as conversões sejam precisas.
 Validação de Entradas: A aplicação valida entradas do usuário, como valores válidos e moedas selecionadas.
 A aplicação permite conversões rápidas e precisas entre diferentes moedas, com uma interface amigável e integração com uma API externa.
