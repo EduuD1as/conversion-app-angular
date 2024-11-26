@@ -8,13 +8,14 @@ import { FormsModule } from '@angular/forms';
   templateUrl: './converter-moeda.component.html',
   styleUrl: './converter-moeda.component.css'
 })
+
 export class ConverterMoedaComponent {
 
   opcaoEscolhida: String = '';
   valor: number = 0;
   resultado: number = 0;
 
-  constructor(private conversorService: ConversorService) {}
+  constructor(private conversorService: ConversorService) { }
 
   async calcularConversao() {
     let valorMoeda = 0;
